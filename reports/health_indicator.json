@@ -1,0 +1,38 @@
+{
+  "sensors": [
+    "sensor_2",
+    "sensor_3",
+    "sensor_4",
+    "sensor_7",
+    "sensor_8",
+    "sensor_9",
+    "sensor_11",
+    "sensor_12",
+    "sensor_13",
+    "sensor_14",
+    "sensor_15",
+    "sensor_17",
+    "sensor_20",
+    "sensor_21"
+  ],
+  "loadings": {
+    "sensor_2": 0.273098588343027,
+    "sensor_3": 0.2600065595390505,
+    "sensor_4": 0.3010335983604045,
+    "sensor_7": -0.2982643469429613,
+    "sensor_8": 0.28131396128304026,
+    "sensor_9": 0.10617808355191798,
+    "sensor_11": 0.30946606144970906,
+    "sensor_12": -0.30456709918887415,
+    "sensor_13": 0.28087658332598436,
+    "sensor_14": 0.06825334787671772,
+    "sensor_15": 0.287579333429287,
+    "sensor_17": 0.2694080594410846,
+    "sensor_20": -0.2830915528245012,
+    "sensor_21": -0.28340012942880544
+  },
+  "explained_variance_ratio": 0.6404128837634026,
+  "healthy_anchor": -2.2355556021192102,
+  "failed_anchor": 7.326213266555717,
+  "score_meaning": "100=training early-life median, 0=training terminal median; clipped, not failure probability"
+}

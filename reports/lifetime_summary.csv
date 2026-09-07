@@ -1,0 +1,3 @@
+partition,count,min,median,mean,max,std
+train,80,128,199.0,207.0125,362,47.456440720125485
+validation,20,135,193.5,203.5,269,42.61393397025265

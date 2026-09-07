@@ -1,0 +1,5 @@
+{
+  "max_additivity_error_cycles": 0.00012969970703125,
+  "explained_output": "Raw XGBoost output before [0, cap] clipping; signed statistics summed per sensor",
+  "baseline": 85.1772232055664
+}

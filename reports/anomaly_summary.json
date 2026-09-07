@@ -1,0 +1,8 @@
+{
+  "reference_windows": 2400,
+  "reference_flag_rate": 0.05,
+  "all_training_flag_rate": 0.31103194251554855,
+  "offset": -0.48591839380612595,
+  "flag_threshold_decision_function": 0.0,
+  "label_warning": "No point anomaly labels; no anomaly precision/recall claim. Early life is a proxy for nominal state."
+}

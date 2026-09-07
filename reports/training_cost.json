@@ -1,0 +1,37 @@
+{
+  "Linear Regression": {
+    "selected_fit_seconds": 0.04043029993772507,
+    "selected_candidate": 0,
+    "search_seconds": 0.04246910009533167
+  },
+  "Random Forest": {
+    "selected_fit_seconds": 76.3175770000089,
+    "selected_candidate": 1,
+    "search_seconds": 108.91637849994004
+  },
+  "XGBoost": {
+    "selected_fit_seconds": 1.9977635000832379,
+    "selected_candidate": 0,
+    "search_seconds": 5.223951600026339
+  },
+  "LSTM": {
+    "selected_fit_seconds": 38.623641500016674,
+    "best_epoch": 20,
+    "epochs_run": 30,
+    "parameters": 13489
+  },
+  "inference": {
+    "train": {
+      "rows": 16561,
+      "all_models_seconds": 0.87463239999488
+    },
+    "validation": {
+      "rows": 4070,
+      "all_models_seconds": 0.3068053999450058
+    },
+    "test": {
+      "rows": 13096,
+      "all_models_seconds": 0.7122426999267191
+    }
+  }
+}

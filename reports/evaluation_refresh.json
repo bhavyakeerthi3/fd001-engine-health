@@ -1,0 +1,24 @@
+{
+  "refreshed_utc": "2026-09-07T15:33:35.966122+00:00",
+  "reason": "Recompute from immutable saved predictions; undefined constant-target R2 is NaN, not sklearn's force-finite zero. No retraining or selection.",
+  "source_hashes": {
+    "src\\__init__.py": "9cafd8625844d6e554174b55d4ad51d5bcfb45eb5832b717806586e6b5e0c2f5",
+    "src\\anomaly_detection.py": "10aee130c67e13d4787418eee759d49de20e8f2b39da6465f78bfa96f60a5ade",
+    "src\\eda.py": "b81e08cae3358876f70792580e634cd38f235db5260c124a1dd29603aab6910a",
+    "src\\evaluation.py": "a899b0c59f2fb568ab0e5f0f3c39f0c3cb9821806f5dcdc30dcd8ccec0b9bf35",
+    "src\\explainability.py": "7edda3ec86fcab7aafe77722140a42062ebb59c03f0101d92f52e570125bca6b",
+    "src\\feature_engineering.py": "ff2c0fd43c608167abdcc06e02b057a64f98fd11f44dfabeb86192eeed93c1f7",
+    "src\\health_indicator.py": "563d715f895f705d25094af59fa1c870f0c139a2f1dd343721e6f58a2f5d6eaf",
+    "src\\inference.py": "5d2b7a180cbe9c9ee2c77934ef8745a32c42317c399d1631ca4eb1a97fdbf75e",
+    "src\\pipeline.py": "15842a32c6691e022a94fc399fcf987a6eec07e084ec21e57544dba9e46bf1ba",
+    "src\\preprocessing.py": "cd2553156c6b58415faf15b9e281bebe2c56a7fbb4c3e80113021fbb2504e45a",
+    "src\\reporting.py": "570fb3a2726c1496143a6a9c30d1b2f5fca4bdfc0c428861b92f6ac67a71bd18",
+    "src\\rul_models.py": "e038ef50d346805d12bdd21e5ef5187769630b690ee2175f74d779e656fbd26a",
+    "src\\schema.py": "475a54472187533dba44729c51758b137edf66056e79324f194f277bb6e90d29"
+  },
+  "prediction_hashes": {
+    "test_predictions.csv": "f12fa6e7965486f8eda2e3013d56659655f4c9e77c8e56b7020a2167aaa60fdb",
+    "train_predictions.csv": "4bae94f168861ead94cbe414e436585b0b52ef865a6e1a035dbf1a342b175e7e",
+    "validation_predictions.csv": "4472883c7c5daff400d22f90146d4bc033f3cc786f0b3bf9d1c16368a4d5cc3c"
+  }
+}

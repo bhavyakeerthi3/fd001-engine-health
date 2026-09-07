@@ -1,0 +1,7 @@
+partition,target,coverage,mean_width
+train,rul_target,0.9875,5.396048299126435
+train,rul_raw,0.9875,5.396048299126435
+validation,rul_target,0.55,26.80154229121134
+validation,rul_raw,0.55,26.80154229121134
+test,rul_target,0.7,25.33819974261207
+test,rul_raw,0.68,25.33819974261207

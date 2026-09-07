@@ -1,0 +1,6 @@
+{
+  "rmse_improvement_lstm_over_xgb": -1.9743676432082164,
+  "paired_bootstrap_95_low": -4.3964569772644655,
+  "paired_bootstrap_95_high": 0.26760361302873875,
+  "repeats": 2000
+}
