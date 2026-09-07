@@ -1,0 +1,20 @@
+{
+  "seed": 42,
+  "validation_fraction": 0.2,
+  "validation_cutoff_fraction": [0.3, 0.9],
+  "rul_cap": 125,
+  "window": 30,
+  "sensor_policy": {"minimum_unique": 3, "minimum_median_abs_spearman": 0.3, "minimum_trend_r2": 0.1},
+  "healthy_cycles": 30,
+  "hi_anchor_cycles": 20,
+  "hi_terminal_cycles": 5,
+  "isolation_contamination": 0.05,
+  "isolation_trees": 200,
+  "rf_candidates": [{"n_estimators": 200, "max_depth": 12, "min_samples_leaf": 3}, {"n_estimators": 200, "max_depth": null, "min_samples_leaf": 5}],
+  "xgb_candidates": [{"n_estimators": 500, "max_depth": 3, "learning_rate": 0.04}, {"n_estimators": 500, "max_depth": 5, "learning_rate": 0.04}],
+  "lstm": {"hidden_size": 48, "layers": 1, "batch_size": 256, "learning_rate": 0.001, "max_epochs": 60, "patience": 10},
+  "spread_multiplier": 1.96,
+  "bootstrap_repeats": 2000,
+  "maintenance_rul_thresholds": {"red_below": 20, "orange_below": 40, "yellow_below": 80},
+  "threads": 4
+}
